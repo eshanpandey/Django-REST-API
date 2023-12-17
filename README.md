@@ -26,3 +26,24 @@ Welcome to the Simple Django REST API project! This repository provides a hands-
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/simple-django-rest-api.git
+
+   Install Dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run Migrations:
+
+bash
+Copy code
+python manage.py migrate
+Run the Development Server:
+
+bash
+Copy code
+python manage.py runserver
+The API will be accessible at http://localhost:8000/.
+
+Usage
+To make a GET request, navigate to http://localhost:8000/api/resource/.
+To make a POST request, use a tool like curl or a client like Postman to send data to http://localhost:8000/api/resource/.
